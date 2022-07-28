@@ -6,7 +6,8 @@
 docker.env
 *.yml
 **.yaml
-
+*.pkl
+**/archive/
 **/node_modules/
 # Byte-compiled / optimized / DLL files
 __pycache__/
