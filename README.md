@@ -48,8 +48,7 @@ Provides a set of data analysis tools for humming bot instances
 
 ### Plots
 
-TODO (link to file)
-With  log to plot tool .ipynb you can plot trade data from bot instances
+With  [log_to_plot_tool_.ipynb](https://github.com/akorzunin/humming_bot_analysis_tools/blob/main/humming_bot_maintenance/log_to_plot_tool.ipynb) you can plot trade data from bot instances
 
 Data would be displayed in IPython widgets:
 
@@ -72,8 +71,7 @@ Data would be displayed in IPython widgets:
 
 ### Connection analysis
 
-TODO link to file
-connection_analysis.ipynb
+[connection_analysis.ipynb](https://github.com/akorzunin/humming_bot_analysis_tools/blob/main/utils/connection_analysis.ipynb)
 Provides utility to measure weight of current connection to binance api
 
 Read more about binance weight limit [here](https://dev.binance.vision/t/request-limit-on-the-api-endpoints/9275)
@@ -81,8 +79,7 @@ Read more about binance weight limit [here](https://dev.binance.vision/t/request
 
 ### Profit range
 
-TODO (link to file)
-profit_range.ipynb
+[profit_range.ipynb](https://github.com/akorzunin/humming_bot_analysis_tools/blob/main/utils/profit_range.ipynb)
 Interactive widget calulator
 
 - Widget 1: calculate fee amount and minimal profit range with geven amount of currency and price
@@ -91,7 +88,6 @@ Interactive widget calulator
 - Widget 2: calculate sell/buy trade based on geven spread, price and amount
 ![image](https://user-images.githubusercontent.com/54314123/181341858-fb80e7e6-a3f6-47ea-9be5-7a6dac2693cf.png)
 
-License
----
+## License
 
-Humming bot analysis tools is free and open-source software licensed under the [Apache 2.0 License]().
+Humming bot analysis tools is free and open-source software licensed under the [Apache 2.0 License](https://github.com/akorzunin/humming_bot_analysis_tools/blob/main/LICENSE).
