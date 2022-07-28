@@ -9,29 +9,30 @@ Provides a set of data analysis tools for humming bot instances
 - Configure env files
   - Create `.env` file to use api keys in python files
 
-        ```sh
-        TOKEN=
-        BINANCE_API_KEY=
-        BINANCE_SECRET_KEY=
-        PWD=
-        LOCAL_FOLDER=
-        ```
+    ```sh
+    TOKEN=
+    BINANCE_API_KEY=
+    BINANCE_SECRET_KEY=
+    PWD=
+    LOCAL_FOLDER=
+    ```
 
-        `TOKEN` - telegram bot token (optional)
-        `PWD` - Windows path to directory (looks like `C:\Users\`)
-        `LOCAL_FOLDER` - wsl path to directory (looks like `/mnt/c/Users`)
+    - `TOKEN` - telegram bot token (optional)
+    - `PWD` - Windows path to directory (looks like `C:\Users\`)
+    - `LOCAL_FOLDER` - wsl path to directory (looks like `/mnt/c/Users`)
+    
   - Create `.env.sh` file to use sh scripts and access host over ssh
 
-        ```sh
-        export HUMMINGBOT_HOST_USER=
-        export HUMMINGBOT_HOST_IP=
-        export HUMMINGBOT_HOST_LOCATION="/home/akorz/Documents/humming_bot"
-        export LOCAL_FOLDER="/mnt/c/Users/akorz/Documents/humming_bot_analysis_tools"
-        ```
+    ```sh
+    export HUMMINGBOT_HOST_USER=""
+    export HUMMINGBOT_HOST_IP=""
+    export HUMMINGBOT_HOST_LOCATION=""
+    export LOCAL_FOLDER=""
+    ```
 
-        `HUMMINGBOT_HOST_LOCATION` - path to directory w/ humming bot instances (example `"/home/"`)
+    - `HUMMINGBOT_HOST_LOCATION` - path to directory w/ humming bot instances (example `"/home/"`)
 
-        `LOCAL_FOLDER` - same as LOCAL_FOLDER in .env file
+    - `LOCAL_FOLDER` - same as LOCAL_FOLDER in .env file
 
 ## Usage
 
