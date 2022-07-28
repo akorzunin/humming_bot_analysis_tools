@@ -1,0 +1,22 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "send configs",
+            "type": "shell",
+            "command": "python ./humming_bot_maintenance/modules/manage_bot_over_ssh.py --send"
+        },
+        {
+            "label": "copy configs",
+            "type": "shell",
+            "command": "python ./humming_bot_maintenance/modules/manage_bot_over_ssh.py --copy"
+        },
+        {
+            "label": "send one file",
+            "type": "shell",
+            "command": "python humming_bot_maintenance//modules//send_file_ssh.py",
+        },
+    ]
+}

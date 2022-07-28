@@ -1,0 +1,6 @@
+{
+    "git.enabled": true,
+    "jupyter.jupyterServerType": "local",
+    "python.formatting.provider": "black",
+    // "notebook.output.textLineLimit": 5
+}
